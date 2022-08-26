@@ -1,0 +1,15 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+blockquote {
+    font-style:italic;
+    font-weight: bold;
+    color:#ee3e80;/* Hex Code */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.note{
+    color:dodgerblue;
+}
+#introduction {
+    color:hotpink;
+}
