@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        #h3-to-inline {
+            display: inline;
+        }
+        #span-to-block {
+            display: block;
+        }
+
+        /* Assignment- inline-block */
+
+        #hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Display Property</h1>
+    <p>The following are values the display property can have: </p>
+
+    <ol>
+        <li>inline</li>
+        <li>block</li>
+        <li>inline-block</li>
+    </ol>
+
+    <blockquote>Example Usage</blockquote>
+    <h2>inline</h2>
+    <p>The h3 tag below is a block level element.</p>
+    <p>We shall apply to it's display an inline value</p>
+    <h3 id="h3-to-inline">Am a block level element by default</h3>
+    <span>Am an inline level element by default</span>
+    
+    <h2>block</h2>
+    <p>The span tag below is an inline level element.</p>
+    <p>We shall apply to it's display a block value</p>
+    <span id="span-to-block">Am an inline level element by default</span>
+    <a href="#">Am another inline level element</a>
+    
+    <!-- Class Work -->
+    <!-- Experiment with the inline-block value of the display property -->
+    
+    <h2>none</h2>
+    <p>The HTML Element below will not show!</p>
+    <p>We shall apply to it's display a value of none</p>
+    <div id="hide">I am hidden</div>
+</body>
+</html>
