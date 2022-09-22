@@ -1,0 +1,28 @@
+Classwork
+1. Create a html file in the 01_JavaScript Fundamentals Folder
+2. call the file classwork.html
+3. In the file, perform the internal and external js linking.
+4. In the external js file (call it whatever you like)
+4i.) use the window.alert()
+4ii.) use the console.log()
+4iii.) use the document.write()
+5. Declare a variable and give it a name
+5i). Assign to the just created variable a value.
+5ii). The value should be a string Data Type.
+
+NOW!!!!!!!!!!
+1. Declare three variables, the first is, a, second is, b, third is, c.
+2. Assign numbers to a and b.
+3. Assign a + b to c
+
+Classwork (02_JavaScript Fundamentals 2)
+THEORY
+1. What is a function?
+2. What is a function Definition?
+3. What does it mean to invoke/call a function
+PRACTICAL
+1. Create a function sayHello, to say Hello in the console
+2. Build a Calculator app
+2i. Create a calculator to add two different numbers together
+TIP: The function will receive multiple values...
+
