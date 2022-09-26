@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Making</title>
+</head>
+<body>
+    <h1>Making Decisions in JavaScript</h1>
+    <ul>
+        <li>if else statements</li>
+        <li>if else if statements</li>
+    </ul>
+
+    <script>
+        // Control Flow is another term used when we refer to decision making in javascript.
+        // We always going to make use of comparison operators and logical operators to make decisions
+        // Comparison Operators: != ,!==, == and ===, (denotes equality and Strict Equality with its negations). We also have greater than (>), and less than (<) etc.
+        // Logical Operators are your And ( && ), Or ( || ) and Not ( ! )
+
+        // Example Usage 1:
+        if( 2 == 2 ){
+            console.log('Yes, it is true')
+        } else {
+            console.log('No, it is not true')
+        }
+
+        // Example Usage 2:
+        if( '2' === 2 ){
+            console.log('Yes, the values are equal')
+        } else {
+            console.log('No, the data types are not the same!')
+        }
+
+        // Example Usage 3:
+        if( 2 != 2 ){
+            console.log('No, the values are not equal')
+        } else {
+            console.log('Yes, the values are equal')
+        }
+
+        // Example Usage 4:
+        if( 2 !== 2 ){
+            console.log('No, the values are not equal')
+        } else {
+            console.log('Yes, the values are equal')
+        }
+
+        // Logical Operations
+        // Example Usage 1:
+        if( (2 == 2) && ('Hello' === 'Hello') ){
+            console.log('It is true!')
+        }
+        else {
+            console.log('It is false')
+        }
+        
+        // Example Usage 2:
+        if( (2 === '2') || ('Hello' === 'Hello World') ){
+            console.log('It is true!')
+        }
+        else {
+            console.log('It is false')
+        }
+
+        // Example Usage 3:
+        var a = true
+        if(!a){
+            console.log('The condition is true')
+        }
+        else{
+            console.log('Negation of true is false')
+        }
+
+        // Classwork Solution
+        var marketDay = true
+        var notAMarketday = false
+
+        var monday = notAMarketday
+        var saturday = marketDay
+        var sunday = notAMarketday
+
+        if(monday == true){
+            console.log('Monday is not a market Day')
+        }
+        else if( sunday == true){
+            console.log('Sunday is not a Market Day')
+        }
+        else if( saturday == true ) {
+            console.log('Most Saturdays are market days')
+        }
+        else {
+            console.log('We either go to work or rest on these days')
+        }
+    </script>
+</body>
+</html>

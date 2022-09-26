@@ -1,0 +1,16 @@
+Class work
+THEORY
+1. Explain what you understand in short sentences:
+a. Comparison Operator
+b. Logical Operator
+c. Booleans
+d. Data types
+e. Logical And
+f. Logical Or
+g. Logical Not
+
+PRACTICAL
+Write an if statement to decide whether you will go to the market on a monday, saturday or on a sunday.
+1. The condition for the first if() will check if monday is a market day.
+2. The condition for the second if() will check the purpose of sunday and compare it to whether it aligns with the condition of the first if() statement.
+3. The last condition should evaluate if all other if() statements are false.
