@@ -1,0 +1,13 @@
+Class Work
+1. Create an empty array
+2. Create an array with different values / data types in it.
+3. The above array should have a length of 10
+4. Now perform the following array manipulations on the array you created in Q2.
+4i. push, pop, shift, unshift, indexOf, includes, reverse, slice, splice
+5. Create a third array
+5ii. Now use the concat method 
+7. Create a Multidimensional Array with different data types in it.
+7i. Create a two dimensional Array with different values from the one shown in class
+7ii. Access their values
+7ii. Create a three dimensional Array with different values from the one shown in class
+7iii. Access their values
