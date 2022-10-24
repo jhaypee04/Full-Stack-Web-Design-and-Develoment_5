@@ -1,0 +1,15 @@
+Classwork
+Theory
+With all honesting to your self, write/talk about what you understand on the following:
+1. forEach method
+2. map method
+3. filter method
+4. reduce method (check google)
+
+Practical
+Create an array of values, use both strings and numbers. Then perform the following operations:
+1. forEach
+2. map
+3. filter
+Create an array of only numbers this time. Perform 
+1. reduce

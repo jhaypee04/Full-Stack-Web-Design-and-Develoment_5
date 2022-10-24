@@ -1,0 +1,4 @@
+Using the any of the three methods to add events to your webpage 
+add the following event listeners:
+1. onmousemove
+2. ondblclick

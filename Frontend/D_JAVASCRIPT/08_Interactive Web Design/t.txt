@@ -1,0 +1,6 @@
+Classwork
+1. Create any number of elements in your index.html file.
+2. Assign to these elements a general class name 
+3. Use JavaScript to grab these elements from the DOM
+4. Then inject/insert some text contents into each and every one of the elements
+TIP: use either the CSS query selector approach or the old school method

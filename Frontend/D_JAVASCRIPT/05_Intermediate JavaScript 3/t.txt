@@ -1,0 +1,9 @@
+Classwork
+1. Create a dog object
+2. Give it properties and methods
+3. Access the values from the dog object and print it to the console.
+4. Nest an array in an object
+5. Console log the values
+6. Nest an Object in an array 
+7. Console log the values
+8. Perform a while loop, for loop, for in loop operation

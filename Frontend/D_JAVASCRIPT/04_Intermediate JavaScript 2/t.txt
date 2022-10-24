@@ -9,5 +9,5 @@ Class Work
 7. Create a Multidimensional Array with different data types in it.
 7i. Create a two dimensional Array with different values from the one shown in class
 7ii. Access their values
-7ii. Create a three dimensional Array with different values from the one shown in class
-7iii. Access their values
+7iii. Create a three dimensional Array with different values from the one shown in class
+7iv. Access their values
