@@ -1,0 +1,29 @@
+Node.js (24-Oct-22)
+is not a framework, 
+it is a runtime environment
+JavaScript was created to run only in the browser!
+Nodejs helps us to run it locally
+Nodejs is usually used to create servers
+Servers connect the frontend application to a database
+
+Command Line Techniques
+Command Promt/Terminal/Command Line Interface
+PowerShell, CMD, Hyper Terminal
+Commands we shall use frequently:
+1. cd - change directory: Syntax - cd {name of the folder}
+	USAGE: cd backend
+2. mkdir - make directory
+	USAGE: mkdir test
+3. rmdir - remove directory
+	USAGE: rmdir test
+4. cd.. - to move up in the folder directory tree
+
+The package.json file
+This file monitors every file in our project directory.
+To create this file- type: npm init
+
+
+
+
+
+
