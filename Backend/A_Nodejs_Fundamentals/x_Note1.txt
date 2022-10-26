@@ -1,0 +1,108 @@
+NODEJS
+What is Node.js?
+Nodejs is a JavaScript 
+runtime built on Chrome's 
+V8 JavaScript Engine
+
+What are the uses of Nodejs?
+Nodejs is primarily used for 
+non-blocking, event-driven
+servers, due to its single
+threaded nature.
+
+The Node REPL
+
+REPL - Read Eval Print Loop
+
+What is REPL?
+Read-Eval-Print-Loop is a 
+computer environment where 
+user inputs are read and 
+evaluated, and then the 
+results are returned to the 
+user.
+
+The File System (fs)
+
+When we write our codes in
+Nodejs to build an 
+application we normally
+place them in different
+files.
+
+Modules
+What is a module?
+A module is a file that is
+exporting some codes.
+
+Require
+We use require to get the 
+exact module we want.
+
+Reading & Writing to files
+To read and write to files 
+in nodejs, we use one of 
+nodejs core modules known
+as fs
+
+To read files, we use a 
+method called readFileSync()
+Eg: fs.readFileSync()
+This method takes in two
+arguments:
+1. The first argument is the
+full path of the file we 
+want to read.
+2. The second argument is 
+character encoding because
+we are dealing with binary
+data eg: 'utf-8'
+
+
+readFileSync is a 
+synchronous operation.
+
+To write files, we use:
+writeFileSync() method
+
+This takes two parameters:
+1. the name of the file we
+want to write to.
+2. the data we want to write
+into the file
+
+
+Module.export 
+Module.export is a Global
+object
+NB:
+1. In node, Global is a 
+global object.
+2. In DOM, window is the 
+global object
+
+Class work
+1. use the fs module to
+2. read and write files
+3. create two other files
+4. in one, create a function
+that performs an operation
+of adding two numbers together
+5. Now export this function
+6. invoke this function in 
+the second file, as well as
+passing in the necessary 
+arguments(two numbers)
+
+Tip:
+1. function expression.
+eg: 
+var add2Num = function(){
+
+}
+2. function definition
+eg: 
+function add2Num(){
+	
+}
+
