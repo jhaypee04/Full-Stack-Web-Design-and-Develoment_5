@@ -1,0 +1,78 @@
+Express JS & Templating Engines
+What is ExpressJS?
+Express is a minimal and flexible Node.js web application
+framework that provides a robust set of features for web
+and mobile applications.
+
+Its a layer built on the top of the Node.js that helps 
+manage servers and routes.
+
+Creating Your Servers with Express!
+To create a server using express, we have to call/require
+the express module. That is after we have already installed
+
+NB: We need to store all the functionalities returned
+from the express module in a variable conventionally
+called app.
+
+Handling Requests and Responses!
+Clients make request(s) to the Server
+Serveres send response(s) back to the Client
+
+Nodejs handles this back-and-forth process
+We create a server which is just a file containing codes
+that listens for requests coming from the frontend.
+
+We have a method that listens for the requests coming 
+from the browser called 'listen'
+
+Now this method takes in two arguments:
+1. port number - to listen on
+2. callback function- that runs if/when the node application is connected to the browser.
+
+Understanding and Working with routes!
+What is a route?
+A route is a section of Express code that associates a HTTP verb (GET, POST, PUT, DELETE, etc), a URL path/pattern, and a function that is called to handle that pattern.
+
+We are going to be creating routes
+
+Path:
+/ is always taken as the homepage/landing page of our
+website.
+/about  is the about page of our website
+/contact 
+/blogpage
+
+Function in the route
+The callback function in the route takes in two parameters 1. request
+2. response
+
+Classwork
+1. Create file called classwork_server.js
+2. Create a server using expressJS
+3. get a home route
+4. get a contact route
+
+
+Processing POST requests with body-parser module!
+What is the POST request?
+POST is used to send data to a server (from the frontend) to create/update a resource(database).
+
+body-parser module
+The body-parser is a module that comes along whenever we install the express (package from npm)
+
+What is body-parser?
+Express body-parser is an npm mpdule used to process data sent in an HTTP request body.
+NB: 
+1. It provides four express middleware for parsing a.) JSON, b.) text, c.) URL-encoded, and d.) raw data sets over an HTTP request body
+
+What is Middleware?
+Middleware is a function!
+
+What is Express Middleware?
+The express middleware is a function that has access to the request (req) and response (res), and the next function in the application's request-response cycle. The next function is a function in the express router which , when invoked, executes the middleware succeeding the current middleware.
+
+Auto-restart with Nodemon!
+Installing nodemon globally.
+Nodemon  is going to be available in any web application (folder) that we shall be creating.
+
