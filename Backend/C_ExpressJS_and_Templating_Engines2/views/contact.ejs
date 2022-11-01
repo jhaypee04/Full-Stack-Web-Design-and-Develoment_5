@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<body>
+    <h2>Send me a nice message!</h2>
+    
+    <form action="/success" method="post">
+        <label>
+            username:
+            <input type="text" name="username">
+        </label>
+        <label>
+            email:
+            <input type="email" name="email">
+        </label>
+        <label>
+            message
+            <textarea name="message" cols="30" rows="10"></textarea>
+        </label>
+        <div>
+            <input type="submit" value="send">
+        </div>
+    </form>
+</body>
+</html>

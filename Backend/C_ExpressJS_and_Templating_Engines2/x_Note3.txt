@@ -1,0 +1,9 @@
+ExpressJS & Templating Engine 2
+What is Templating?
+It refers to a web technology technique that defines the presentation (layout and style) of web pages with templates in various forms.
+
+EJS is short Embedded JavaScript Templating
+
+Classwork
+1. Create a route for the contact page
+2. render it to the browser.
