@@ -1,0 +1,21 @@
+ExpressJS & Templating Engines 3
+
+Serving Static Assets in Express
+What are Static assets.
+They are files such css, images, audio, video etc.
+Static files are files that do not change.
+
+EJS & Partials
+Classwork
+1. Create a folder called D_ExpressJS_and_Templating_Engines3
+2. cd into it in the terminal
+3. npm init -y
+4. install express and ejs
+5. configure express for ejs in an app.js file
+6. set the views the directory
+7. create an index.ejs file inside the views directory
+8. create a about.ejs file inside the views folder
+9. serve static assets in express
+10. use bootstrap + express
+11. create a header and a footer in seperate ejs files
+12. use partials to include them in the index and about.ejs files.

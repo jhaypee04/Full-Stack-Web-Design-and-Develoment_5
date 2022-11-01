@@ -6,6 +6,7 @@ const app = express()
 app.set('view engine', 'ejs')
 // middleware
 app.use(express.urlencoded({extended:true}))
+app.use('/assets', express.static('assets'))
 
 app.get('/', (req, res)=>{
     const name1 = 'Johnpaul'
