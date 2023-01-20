@@ -9,11 +9,13 @@
         .rel {
             color: red;
             font-weight: bold;
+            z-index: 11;
 
             position: relative;
-            /* top left right bottom to control its position */
-            top: 10px;
-            left: 40px;
+           top: 10px;
+           left: 100px;
+           bottom: 10px;
+           right: 20px;
         }
         .abs {
             color: green;
@@ -28,23 +30,23 @@
             background: lightskyblue;
 
             position: relative;
-            z-index: 1;
         }
         .abs-rel {
             color:fuchsia;
             font-weight: bold;
 
             position: absolute;
-            /* top: 0; */
-            bottom: 0px;
+            top: 0;
+            /* bottom: 0px; */
         }
         .fix {
-            color:rgb(201, 221, 45);
+            color:#c9dd2d;
             font-weight: bold;
-
+            background-color: black;
+            padding: 10px 0 10px 0;
             position: fixed;
             top: 200px;
-            z-index: 0;
+            z-index: 10;
         }
     </style>
 </head>
@@ -56,25 +58,25 @@
         <li>Absolute Position</li>
         <li>Fixed Position</li>
     </ol>
-
+    
     <h2>Example Usage</h2>
     <h4>Relative Positioning</h4>
     
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure magnam sit odit sed unde aut tempora, earum a perferendis!</p>
-
-    <p class="rel">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure magnam sit odit sed unde aut tempora, earum a perferendis!</p>
-
+    
+    <p class="rel" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure magnam sit odit sed unde aut tempora, earum a perferendis!</p>
+    
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure magnam sit odit sed unde aut tempora, earum a perferendis!</p>
-
+    
     <h2>Example Usage</h2>
     <h4>Absolute Positioning</h4>
     
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure magnam sit odit sed unde aut tempora, earum a perferendis!</p>
-
+    
     <p class="abs">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure magnam sit odit sed unde aut tempora, earum a perferendis!</p>
-
+    
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure magnam sit odit sed unde aut tempora, earum a perferendis!</p>
-
+    
     <h2>Example Usage 2</h2>
     <h4>Absolute Positioning in a relative Ancestor</h4>
     <div class="container">
@@ -84,15 +86,16 @@
         
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, ipsum.</p>
     </div>
-
     
+    <!-- START -->
     <h2>Example Usage</h2>
     <h4>Fixed Positioning</h4>
     
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure magnam sit odit sed unde aut tempora, earum a perferendis!</p>
-
-    <p class="fix">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure magnam sit odit sed unde aut tempora, earum a perferendis!</p>
-
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iure magnam sit odit sed unde aut tempora, earum a perferendis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+    
+    <p class="fix">Lorem ipsum dolor sit amet consectetur, adipisicing </p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing </p>
+    <!-- STOP -->
 </body>
 </html>
