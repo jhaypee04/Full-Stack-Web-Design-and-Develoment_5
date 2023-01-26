@@ -56,13 +56,13 @@ Classwork
 
 Processing POST requests with body-parser module!
 What is the POST request?
-POST is used to send data to a server (from the frontend) to create/update a resource(database).
+POST is used to send data to a server (from the frontend) to create a resource(database).
 
 body-parser module
 The body-parser is a module that comes along whenever we install the express (package from npm)
 
 What is body-parser?
-Express body-parser is an npm mpdule used to process data sent in an HTTP request body.
+Express body-parser is an npm module used to process data sent in an HTTP request body.
 NB: 
 1. It provides four express middleware for parsing a.) JSON, b.) text, c.) URL-encoded, and d.) raw data sets over an HTTP request body
 

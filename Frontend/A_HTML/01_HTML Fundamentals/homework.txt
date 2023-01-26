@@ -1,0 +1,6 @@
+Assignment
+1. video tag
+2. audio tag
+3. Try the above tags in a new file
+4. Search MDN web docs on Google
+5. Search for the above tags in the site

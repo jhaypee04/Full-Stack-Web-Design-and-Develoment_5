@@ -2,7 +2,7 @@ const express = require('express')
 const ejs = require('ejs')
 
 const app = express()
-
+// Add This
 app.set('view engine', 'ejs')
 // middleware
 app.use(express.urlencoded({extended:true}))

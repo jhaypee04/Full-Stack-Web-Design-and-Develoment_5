@@ -1,0 +1,20 @@
+.row1Boxes, .row2Boxes{
+    width: 25%;
+    height: 300px;
+    margin: 3% 3% 0 3%;
+    float: left;
+}
+
+#row2{
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+h5{
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0;
+}
